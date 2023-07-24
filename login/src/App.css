@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@import url('https://fonts.googleapis.com/css?family=Numans');
+body{
+background-image: url('assets/night.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+
+}
+
+
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+box-shadow: -2px -2px 5px #8ac3f1,
+              3px 3px 3px #fffdd0;
+}
+.text-center{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  color: #fffdd0;
+  text-shadow:1px 1px 1px   #8ac3f1,
+              1px 1px 1px  #83c3f7,
+              1px 1px 1px  #83c3f7;
+
+}
+.input-group{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  
+
+}
+.form-control{
+  height: 35px;
+  width: 100%;
+  padding-left: 45px;
+  
+  
+  font-size: 18px;
+  
+  outline: none;
+  border: none;
+  color:#fffdd0 !important;
+  
+  border: 1px solid rgba(47, 128, 172, 0.438);
+  
+  background: rgba(105, 105, 105, 0);
+  
+
+              
+
+}
+
+
+
+.input-group-text {
+width: 50px;
+height:35px;
+margin-right: 10px;
+padding: 0.25rem;
+box-shadow:  -2px 2px 1px   #8ac3f1,
+             2px -2px 1px  #83c3f7; 
+
+border:0 !important;
+
+}
+
+
+
+.form-check-input
+{
+width: 20px;
+height: 20px;
+
+border-radius: 0.5rem;
+color:#fffdd0;
+}
+.remember{
+  color:#fffdd0;
+  
+}
+
+.login_btn{
+  width:100%;
+ border-radius: 0.5rem;
+  color:#fffdd0;
+  background-color: transparent;
+  margin-top: 20px;
+  box-shadow: -2px -2px 4px #91b6d4,
+              -2px 2px 4px #91b6d4,
+              2px 2px 4px #91b6d4;
+}
+
+
+
+.login_btn:hover{
+  background-color: rgba(47, 128, 172, 0.438);
+}
+
+.option{
+  color:#fffdd0;
+  font-size: larger;
+  justify-content: center;
+  text-align: center;
+  margin:10px;
+}
+
+.social_icon span {
+  margin:10px;
+  box-shadow: -2px -2px 4px #91b6d4,
+              -2px 2px 4px #91b6d4,
+              2px 2px 4px #91b6d4;
+              
+            
+}
+.links{
+  color: #fffdd0;
+}
+.centered-below {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.eye-icon{
+  position: relative;
+  left: 10px;
+  
+  
+}
